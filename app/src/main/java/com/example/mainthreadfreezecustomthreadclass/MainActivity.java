@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         Toast.makeText(this, "MainThread will Freeze for 10seconds", Toast.LENGTH_SHORT).show();
 
-//        MainThread to freeze
+//        MainThread to freeze after 15seconds of Launch
         Handler handler=new Handler(getMainLooper());
         handler.postDelayed(new Runnable() {
             @Override
